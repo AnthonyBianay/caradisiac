@@ -103,5 +103,5 @@ app.route("/suv")
 
 // Démarrer le serveur 
 app.listen(port, hostname, function () {
-    console.log("Mon serveur fonctionne sur http://" + hostname + ":" + port + "\n");
+    console.log("Mon api fonctionne");
 });
